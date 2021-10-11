@@ -25,3 +25,7 @@ Float Literals = 34.365 34356.3444 <br/>
 
 ## Logical Operators
 and, or  , not
+
+## Bitwise operators
+
+&,|,^,>>, << and ~
