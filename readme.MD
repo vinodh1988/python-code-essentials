@@ -114,3 +114,7 @@ while condition:
 1. not mandatory to return a value
 2. not mandatory to have parameters
 3. by default if a function has no return statement we get None as the return value
+4. Functions can be called with keyword parameters so that called no need to bother
+   about positions
+5. Functions can have default parameters
+6. Functions cannot be overloaded
