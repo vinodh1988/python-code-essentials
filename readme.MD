@@ -118,3 +118,4 @@ while condition:
    about positions
 5. Functions can have default parameters
 6. Functions cannot be overloaded
+7. A variable can hold reference for a function

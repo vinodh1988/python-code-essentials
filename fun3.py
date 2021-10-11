@@ -28,5 +28,10 @@ def processTasks2(task1,task2,task3):
 
 processPeople(list[0]["sno"],list[0]["name"],list[0]["city"])
 processPerson(list[0])
-processTasks2(list[1]["task1"],list[1]["task2"],list[1]["task3"])
-processTasks1(list[1])
+
+runTasks=processTasks2
+runTasks(list[1]["task1"],list[1]["task2"],list[1]["task3"])
+runTasks=processTasks1
+runTasks(list[1])
+runTasks=processPerson
+runTasks(list[0])
