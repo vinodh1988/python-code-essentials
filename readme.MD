@@ -92,3 +92,25 @@ for x in lista:
    print(x)
 ```
 
+### While loop
+
+while condition:
+    #statements
+
+### pass keyword
+ 
+ under an if or while statement if you dont have any statements to execute you can 
+ use pass keyword
+
+ ## Functions in python
+
+ function syntax
+
+ ```
+   def funname(parameters):
+        #statements
+```
+
+1. not mandatory to return a value
+2. not mandatory to have parameters
+3. by default if a function has no return statement we get None as the return value
