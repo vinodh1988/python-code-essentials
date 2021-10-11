@@ -29,3 +29,13 @@ and, or  , not
 ## Bitwise operators
 
 &,|,^,>>, << and ~
+
+**Note:** No increment/Decrement operatore in python
+
+## Python decision making and selection statements
+
+if, elif and else keywords are used to make decision making in python <br/>
+
+there is no switch statement supported 
+
+**indentation plays a crucial role in decision making statements**
