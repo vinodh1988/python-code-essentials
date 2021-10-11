@@ -39,3 +39,34 @@ if, elif and else keywords are used to make decision making in python <br/>
 there is no switch statement supported 
 
 **indentation plays a crucial role in decision making statements**
+
+## Collections
+#### lists
+
+1. list is  mutable 
+2. it is linear collection of elements
+3. random access is possible 
+4. it is ordered
+5. enclosed with []
+
+#### tuples
+
+1. tuple is immutable
+2. enclosed within ()
+3. except for the immutability behavior is same as list
+
+### set
+
+1. it is unordered
+2. set Cannot have duplicates
+3. Set is mutable
+
+### dictionary
+
+1. Key value pairs collection
+2. Keys are Unique
+
+
+### in and not in operator
+
+Used to check whether an element exists in list, tuple or set
