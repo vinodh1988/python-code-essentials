@@ -10,7 +10,7 @@ Same applies to python
 
 ## Python literals
 
-String Literals = 'Raj' 'Rahul' "Rahul"__
-Boolean Literals = True False__
-Integer Literals = 234 35634__
-Float Literals = 34.365 34356.3444__
+String Literals = 'Raj' 'Rahul' "Rahul" <br/>
+Boolean Literals = True False <br/>
+Integer Literals = 234 35634 <br/>
+Float Literals = 34.365 34356.3444 <br/>
