@@ -70,3 +70,25 @@ there is no switch statement supported
 ### in and not in operator
 
 Used to check whether an element exists in list, tuple or set
+
+### range function
+
+has three form
+1. range(upper)
+2. range(lower,upper)
+3. range(lower,upper,step)
+
+### for loop
+```
+ for x in range(limit):
+    #statements
+
+```
+
+```
+lista=[1,2,3]
+
+for x in lista:
+   print(x)
+```
+
