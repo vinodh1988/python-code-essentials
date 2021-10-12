@@ -160,3 +160,12 @@ in the function definition use **
 
  withing in the innerfunction if you do not want to create a variable in local scope
  if you want to create in outer function scope use nonlocal keyword
+
+ ### map, reduce and filter
+
+ 1.Map 
+    
+   * processing each list item individually
+   *  for each item processed we return a result
+   *  for a map operation no of inputs = no of outputs
+   *  that is if n items is process the result would also be n items
