@@ -154,3 +154,9 @@ in the function definition use **
  finished execution
 
  and outer function cannot access variables which are part of inner function
+
+
+ ### nonlocal keyword
+
+ withing in the innerfunction if you do not want to create a variable in local scope
+ if you want to create in outer function scope use nonlocal keyword
