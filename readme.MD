@@ -164,7 +164,7 @@ in the function definition use **
  ### map, reduce and filter
 
  #### Map 
-    
+   
    * processing each list item individually
    *  for each item processed we return a result
    *  for a map operation no of inputs = no of outputs
@@ -176,3 +176,16 @@ in the function definition use **
    * for each item processed we need to return a result[ only true or false]
    * for a filter no of inputs >= no of outputs
    * filter will remove the processed individual elements which returned false 
+
+#### reduce
+
+   * Process each item individually but we always take result of last iteration
+   * input for callback will have two parameter two-> current element one-> Previous iteration result
+   * for n inputs there will only one final output
+
+### Modules in python
+
+In python context, a module in nothing collection of python files
+in python files, we will have variables, functions, classes
+we can import these variables, functions and classes in other modules
+So Module is a logical context to group functions, variables and classes
