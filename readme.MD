@@ -143,3 +143,14 @@ in the function definition use **
 
  it is called so because it meant to be called back the function that is being called
  currently
+
+ # Closures
+
+ In most functional languages , defining a function within a function is possible
+
+ and the inner function always can access variable which are in the context of outer function
+
+ and those variables are accessible in the inner function even after outer function
+ finished execution
+
+ and outer function cannot access variables which are part of inner function
