@@ -4,6 +4,9 @@ def modify(li,k,p,r):
     li.insert(1,p)
     li.append(r)
     print(li)
+    del li[0]
+    li.remove(645)
+    print(li)
 
 mylist=[13,45,645,54]
 
