@@ -119,3 +119,27 @@ while condition:
 5. Functions can have default parameters
 6. Functions cannot be overloaded
 7. A variable can hold reference for a function
+
+
+## global and local variables
+
+By default any variable declared within a function acts as local variable
+even though same variable available outside the function
+
+Yet python facilitates developer to refer to the global version of the variable
+by using a key word called global
+
+## *args and **kwargs
+
+1. use * if you are not sure about no of arguments, while passing parameters
+we can send as many values as we want . the parameters are collected as a tuple
+
+2. similarly if you want to pass keyword arguments and collect it as dictionary
+in the function definition use **
+
+## Callback functions
+
+ A function which is passed as parameter to another function is called as callback function
+
+ it is called so because it meant to be called back the function that is being called
+ currently

@@ -17,7 +17,15 @@ def userProcess(stage):
     elif stage=="finishing":
         print('Book is ready is for sale')
 
+def author2Process(stage):
+    if stage=="initial":
+        print("Check Quality of the printing and Proof Reading")
+    elif stage=="finishing":
+        print("Ready to Sell")
+
 
 print("Started book manufacturing")
 print("Documented the book in a document editor")
 factoryProcess("Java Book",userProcess)
+print("----------------------")
+factoryProcess("Novel ",author2Process)
