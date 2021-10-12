@@ -163,9 +163,16 @@ in the function definition use **
 
  ### map, reduce and filter
 
- 1.Map 
+ #### Map 
     
    * processing each list item individually
    *  for each item processed we return a result
    *  for a map operation no of inputs = no of outputs
    *  that is if n items is process the result would also be n items
+
+#### Filter
+  
+   * process each item individually
+   * for each item processed we need to return a result[ only true or false]
+   * for a filter no of inputs >= no of outputs
+   * filter will remove the processed individual elements which returned false 
