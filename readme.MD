@@ -273,29 +273,29 @@ by using concepts like
      Whenever there is possibility of exception , we block the chunk
      of code with try 
    
-    **raise**
+   **raise**
 
     Upon an exception case, if we want to explicitly throw an exception we
     use raise keyword
 
-    **except**
+   **except**
 
     this block is used to catch and handle exception object
 
-    **finally**
+   **finally**
 
     used to define a block which executes regardles of exception
 
-    **else**
+   **else**
     any logic which has to run only if no exception occured can be kept
     in else block
 
     to create our own exception we extend exception
 
-    ```
+   ```
     class MyError(Exception):
        #code
-   ```
+  ```
 
    ### Python File Handling
 
