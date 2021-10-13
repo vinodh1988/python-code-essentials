@@ -189,3 +189,31 @@ In python context, a module in nothing collection of python files
 in python files, we will have variables, functions, classes
 we can import these variables, functions and classes in other modules
 So Module is a logical context to group functions, variables and classes
+
+### Object oriented programming in python
+
+Any language which supports four essential feature can claim itself to support
+OOP
+
+* encapsulation
+* abstraction
+* polymorphism
+* inheritance
+
+**Encapsulation**
+
+data and functions can be group together as one unit and can be named as
+an entity it is called encapsulation
+
+
+**Abstraction**
+
+Allowing only the essential features to be accessed hiding the implementation logic
+
+In python 
+
+if you prefix the instance member with __[doube underscore] it is treated as private
+the member has no visibility outside the class
+
+if you prefix the instance member with _ [single underscore] it is treated as protected
+the member has visibility within in the class and subclass but not for an external class
