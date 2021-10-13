@@ -217,3 +217,25 @@ the member has no visibility outside the class
 
 if you prefix the instance member with _ [single underscore] it is treated as protected
 the member has visibility within in the class and subclass but not for an external class
+
+**Polymorphism**
+
+Abilty to take more than form with one name
+
+In Short, One name/symbol many forms
+
+In common, many oop language supports this feature by using the concept
+
+* method overloading
+* method overriding [super , sub classes having same method]
+* operator overloading [one operator multiple purposes]
+* constructor overloading
+
+out of the above features python support method overriding and  operator overloading
+
+python does not support method/constructor overloading directly,yet it can be achieved
+by using concepts like
+
+   * methods with default parameter
+   * methods with arbitrary parameters using * and ** as paramters
+   
