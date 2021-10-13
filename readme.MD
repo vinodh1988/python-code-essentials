@@ -255,9 +255,10 @@ by using concepts like
    4. Multiple inheritance
 
    ### Python Exception  Handling
-     In python we have lof pre defined exception to match various scenarios
+  
+  In python we have lof pre defined exception to match various scenarios
 
-     To handle exceptions in python , we use
+   To handle exceptions in python , we use
      * try
      * raise
      * except
