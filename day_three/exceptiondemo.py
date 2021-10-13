@@ -10,5 +10,9 @@ except ZeroDivisionError:
     print("Denominator should not be zero")
 except Exception as e:
     print(e)
+else:
+    print('Excecutes only when everything went fine')
+finally: 
+    print('XXXXXXX Mandatory logic executing XXXXXX')
 
 print('program is still working')
