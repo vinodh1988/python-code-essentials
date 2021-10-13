@@ -269,28 +269,28 @@ by using concepts like
      keywords
 
      **try**
-
      Whenever there is possibility of exception , we block the chunk
      of code with try 
    
    **raise**
-
-    Upon an exception case, if we want to explicitly throw an exception we
+   
+   Upon an exception case, if we want to explicitly throw an exception we
     use raise keyword
 
    **except**
 
-    this block is used to catch and handle exception object
+   this block is used to catch and handle exception object
 
    **finally**
 
-    used to define a block which executes regardles of exception
+   used to define a block which executes regardles of exception
 
    **else**
-    any logic which has to run only if no exception occured can be kept
+   
+   any logic which has to run only if no exception occured can be kept
     in else block
 
-    to create our own exception we extend exception
+   to create our own exception we extend exception
 
    ```
     class MyError(Exception):
