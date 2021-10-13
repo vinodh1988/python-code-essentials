@@ -259,11 +259,12 @@ by using concepts like
   In python we have lof pre defined exception to match various scenarios
 
    To handle exceptions in python , we use
-     * try
-     * raise
-     * except
-     * finally
-     * else 
+   
+   * try
+   * raise
+   * except
+   * finally
+   * else 
 
      keywords
 
