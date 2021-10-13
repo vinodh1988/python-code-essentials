@@ -1,7 +1,14 @@
+from exceptions import DenominatorError,NegativeError
 
 try:
     a=int(input("enter an integer->"))
+    if(a<0):
+        raise NegativeError(a)
     b=int(input("enter an integer->"))
+    if(b<0):
+        raise NegativeError(b)
+    if(b>a):
+        raise DenominatorError(b)
     c=a/b
     print(c)
 except ValueError:
