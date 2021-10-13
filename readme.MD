@@ -237,5 +237,63 @@ python does not support method/constructor overloading directly,yet it can be ac
 by using concepts like
 
    * methods with default parameter
-   * methods with arbitrary parameters using * and ** as paramters
+   * methods with arbitrary parameters using [*] and [**] as paramters
+
+ **Inheritance**
    
+   * If a class extends features of another class except private features
+   it is called inhertance
+
+   * since a class inherits features , the class is called as subclass or child class
+
+   * an object for child class can have access to both parent and child members
+
+   Python supports
+   1. Single Inheritance
+   2. Hierarchial inheritance
+   3. Multi level Inheritance
+   4. Multiple inheritance
+
+   ### Python Exception  Handling
+     In python we have lof pre defined exception to match various scenarios
+
+     To handle exceptions in python , we use
+     * try
+     * raise
+     * except
+     * finally
+     * else 
+
+     keywords
+
+     **try**
+
+     Whenever there is possibility of exception , we block the chunk
+     of code with try 
+   
+    **raise**
+
+    Upon an exception case, if we want to explicitly throw an exception we
+    use raise keyword
+
+    **except**
+
+    this block is used to catch and handle exception object
+
+    **finally**
+
+    used to define a block which executes regardles of exception
+
+    **else**
+    any logic which has to run only if no exception occured can be kept
+    in else block
+
+    to create our own exception we extend exception
+
+    ```
+    class MyError(Exception):
+       #code
+   ```
+
+   ### Python File Handling
+
