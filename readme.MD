@@ -268,8 +268,8 @@ by using concepts like
 
      keywords
 
-     **try**
-     Whenever there is possibility of exception , we block the chunk
+   **try**
+    Whenever there is possibility of exception , we block the chunk
      of code with try 
    
    **raise**
