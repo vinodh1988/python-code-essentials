@@ -27,3 +27,9 @@ class Square(Box,Shape):
         Shape._display(self)
         Box._display(self)
         print('Length of square is  {}'.format(self.__side))
+
+    def __repr__(self):
+        return "[ name: {}, type: {}, length: {} ]".format(self.name,self.type,self.__side)
+
+    def __str__(self):
+        return "Happy World!!!"
