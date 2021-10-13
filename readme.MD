@@ -301,6 +301,8 @@ by using concepts like
    ### Python File Handling
    
    Various file modes supported in python
+
+
 +--------------------------------------+--------------------------------------+
 | Sr.No.                               | Modes & Description                  |
 +======================================+======================================+
