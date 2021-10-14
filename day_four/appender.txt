@@ -1,0 +1,36 @@
+
+-----------New Entry------------
+
+from files import store
+
+from files import fileappender
+
+from time import localtime,time
+
+
+
+""" 
+
+while True:
+
+
+-----------New Entry------------
+
+    if(len(record)==0):
+
+        break
+
+    fileappender('x.txt',record)
+
+     """
+
+
+
+""" for x in store["peoplelist"]:
+
+    fileappender('new.txt',x) """
+
+
+
+datalist=store["linelist"]('sample.py')
+
