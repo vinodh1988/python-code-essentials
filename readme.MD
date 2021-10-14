@@ -301,107 +301,46 @@ by using concepts like
    ### Python File Handling
    
    Various file modes supported in python
+   +--------------------------------------+--------------------------------------+
+   | Sr.No.                               | Modes & Description                  |+======================================+======================================+
+   | 1                                    | **r**                               |                                      |                                      ||                                      | Opens a file for reading only. The   ||                                      | file pointer is placed at the        ||                                      | beginning of the file. This is the   ||                                      | default mode.                        |+--------------------------------------+--------------------------------------+
+   | 2                                    | **rb**                               ||                                      |                                      ||                                      | Opens a file for reading only in     ||                                      | binary format. The file pointer is   ||                                      | placed at the beginning of the file. ||                                      | This is the default mode.            |+--------------------------------------+--------------------------------------+
+   | 3                                    | **r+**                               ||                                      |                                      ||                                      | Opens a file for both reading and    ||                                      | writing. The file pointer placed at  ||                                      | the beginning of the file.           |+--------------------------------------+--------------------------------------+
+   | 4                                    | **rb+**                              ||                                      |                                      ||                                      | Opens a file for both reading and    ||                                      | writing in binary format. The file   ||                                      | pointer placed at the beginning of   ||                                      | the file.                            |+--------------------------------------+--------------------------------------+
+   | 5                                    | **w**                                ||                                      |                                      ||                                      | Opens a file for writing only.       ||                                      | Overwrites the file if the file      ||                                      | exists. If the file does not exist,  ||                                      | creates a new file for writing.      |+--------------------------------------+--------------------------------------+
+   | 6                                    | **wb**                               ||                                      |                                      ||                                      | Opens a file for writing only in     ||                                      | binary format. Overwrites the file   ||                                      | if the file exists. If the file does ||                                      | not exist, creates a new file for    ||                                      | writing.                             |+--------------------------------------+--------------------------------------+
+   | 7                                    | **w+**                               ||                                      |                                      ||                                      | Opens a file for both writing and    ||                                      | reading. Overwrites the existing     ||                                      | file if the file exists. If the file ||                                      | does not exist, creates a new file   ||                                      | for reading and writing.             |+--------------------------------------+--------------------------------------+
+   | 8                                    | **wb+**                              ||                                      |                                      ||                                      | Opens a file for both writing and    ||                                      | reading in binary format. Overwrites ||                                      | the existing file if the file        ||                                      | exists. If the file does not exist,  ||                                      | creates a new file for reading and   ||                                      | writing.                             |+--------------------------------------+--------------------------------------+
+   | 9                                    | **a**                                ||                                      |                                      ||                                      | Opens a file for appending. The file ||                                      | pointer is at the end of the file if ||                                      | the file exists. That is, the file   ||                                      | is in the append mode. If the file   ||                                      | does not exist, it creates a new     ||                                      | file for writing.                    |+--------------------------------------+--------------------------------------+
+   | 10                                   | **ab**                               ||                                      |                                      ||                                      | Opens a file for appending in binary ||                                      | format. The file pointer is at the   ||                                      | end of the file if the file exists.  ||                                      | That is, the file is in the append   ||                                      | mode. If the file does not exist, it ||                                      | creates a new file for writing.      |+--------------------------------------+--------------------------------------+
+   | 11                                   | **a+**                               ||                                      |                                      ||                                      | Opens a file for both appending and  ||                                      | reading. The file pointer is at the  ||                                      | end of the file if the file exists.  ||                                      | The file opens in the append mode.   ||                                      | If the file does not exist, it       ||                                      | creates a new file for reading and   ||                                      | writing.                             |+--------------------------------------+--------------------------------------+
+   | 12                                   | **ab+**                              ||                                      |                                      ||                                      | Opens a file for both appending and  ||                                      | reading in binary format. The file   ||                                      | pointer is at the end of the file if ||                                      | the file exists. The file opens in   ||                                      | the append mode. If the file does    ||                                      | not exist, it creates a new file for ||                                      | reading and writing.                 |+--------------------------------------+--------------------------------------+
 
+### Pickling
 
-+--------------------------------------+--------------------------------------+
-| Sr.No.                               | Modes & Description                  |
-+======================================+======================================+
-| 1                                    | **r**                                |
-|                                      |                                      |
-|                                      | Opens a file for reading only. The   |
-|                                      | file pointer is placed at the        |
-|                                      | beginning of the file. This is the   |
-|                                      | default mode.                        |
-+--------------------------------------+--------------------------------------+
-| 2                                    | **rb**                               |
-|                                      |                                      |
-|                                      | Opens a file for reading only in     |
-|                                      | binary format. The file pointer is   |
-|                                      | placed at the beginning of the file. |
-|                                      | This is the default mode.            |
-+--------------------------------------+--------------------------------------+
-| 3                                    | **r+**                               |
-|                                      |                                      |
-|                                      | Opens a file for both reading and    |
-|                                      | writing. The file pointer placed at  |
-|                                      | the beginning of the file.           |
-+--------------------------------------+--------------------------------------+
-| 4                                    | **rb+**                              |
-|                                      |                                      |
-|                                      | Opens a file for both reading and    |
-|                                      | writing in binary format. The file   |
-|                                      | pointer placed at the beginning of   |
-|                                      | the file.                            |
-+--------------------------------------+--------------------------------------+
-| 5                                    | **w**                                |
-|                                      |                                      |
-|                                      | Opens a file for writing only.       |
-|                                      | Overwrites the file if the file      |
-|                                      | exists. If the file does not exist,  |
-|                                      | creates a new file for writing.      |
-+--------------------------------------+--------------------------------------+
-| 6                                    | **wb**                               |
-|                                      |                                      |
-|                                      | Opens a file for writing only in     |
-|                                      | binary format. Overwrites the file   |
-|                                      | if the file exists. If the file does |
-|                                      | not exist, creates a new file for    |
-|                                      | writing.                             |
-+--------------------------------------+--------------------------------------+
-| 7                                    | **w+**                               |
-|                                      |                                      |
-|                                      | Opens a file for both writing and    |
-|                                      | reading. Overwrites the existing     |
-|                                      | file if the file exists. If the file |
-|                                      | does not exist, creates a new file   |
-|                                      | for reading and writing.             |
-+--------------------------------------+--------------------------------------+
-| 8                                    | **wb+**                              |
-|                                      |                                      |
-|                                      | Opens a file for both writing and    |
-|                                      | reading in binary format. Overwrites |
-|                                      | the existing file if the file        |
-|                                      | exists. If the file does not exist,  |
-|                                      | creates a new file for reading and   |
-|                                      | writing.                             |
-+--------------------------------------+--------------------------------------+
-| 9                                    | **a**                                |
-|                                      |                                      |
-|                                      | Opens a file for appending. The file |
-|                                      | pointer is at the end of the file if |
-|                                      | the file exists. That is, the file   |
-|                                      | is in the append mode. If the file   |
-|                                      | does not exist, it creates a new     |
-|                                      | file for writing.                    |
-+--------------------------------------+--------------------------------------+
-| 10                                   | **ab**                               |
-|                                      |                                      |
-|                                      | Opens a file for appending in binary |
-|                                      | format. The file pointer is at the   |
-|                                      | end of the file if the file exists.  |
-|                                      | That is, the file is in the append   |
-|                                      | mode. If the file does not exist, it |
-|                                      | creates a new file for writing.      |
-+--------------------------------------+--------------------------------------+
-| 11                                   | **a+**                               |
-|                                      |                                      |
-|                                      | Opens a file for both appending and  |
-|                                      | reading. The file pointer is at the  |
-|                                      | end of the file if the file exists.  |
-|                                      | The file opens in the append mode.   |
-|                                      | If the file does not exist, it       |
-|                                      | creates a new file for reading and   |
-|                                      | writing.                             |
-+--------------------------------------+--------------------------------------+
-| 12                                   | **ab+**                              |
-|                                      |                                      |
-|                                      | Opens a file for both appending and  |
-|                                      | reading in binary format. The file   |
-|                                      | pointer is at the end of the file if |
-|                                      | the file exists. The file opens in   |
-|                                      | the append mode. If the file does    |
-|                                      | not exist, it creates a new file for |
-|                                      | reading and writing.                 |
-+--------------------------------------+--------------------------------------+
+we can use pickle module to store objects in to files
 
+### Database programming with python
+
+There is no commom framework in python to interact with databases
+
+### Regular Expression
+
+Regular Expression is a string pattern which is create by using various special characters
+
+* ^ -  beginning with
+* $ - ending with
+* [] - used to represent set of alternate characters [single character]
+   <br/>ex : [abc] -> a or b or c
+   <br/>ex : ^A[npc]t$
+       1. it could be ant
+       2.  it could be apt
+       3.  it could be act
+* +   - one or more occurances
+* .(dot) - any character
+* (* asterisk) - zero or more occurences
+* {n} - n number of occurances
+* {m,n} - minimum m occurances maximum upto n occurances
+* ()  - set of alternate strings
+      (an|am|not)  -an or am or not 
 
