@@ -344,3 +344,10 @@ Regular Expression is a string pattern which is create by using various special 
 * ()  - set of alternate strings
       (an|am|not)  -an or am or not 
 
+####  Generators
+
+Generators are special functions which yield multiple values
+
+we use yield keyword to yield values
+
+and we control the flow from caller using next function or iterating using for loop
